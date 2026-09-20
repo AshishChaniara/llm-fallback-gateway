@@ -91,7 +91,7 @@ if prompt := st.chat_input("Enter your message here..."):
             {"model": "groq/gemma2-9b-it"},
             {"model": "openrouter/meta-llama/llama-3.1-8b-instruct:free"},
             {"model": "openrouter/google/gemini-flash-1.5-exp:free"},
-            {"model": "openrouter/microsoft/phi-3-mini-128k-instruct:free"}
+            {"model": "openrouter/mistralai/mistral-7b-instruct:free"}
         ]
         
         full_response = ""
