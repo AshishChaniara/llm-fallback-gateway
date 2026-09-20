@@ -84,8 +84,7 @@ if prompt := st.chat_input("Enter your message here..."):
         # Define the extended fallback matrix
         fallback_models = [
             {"model": "gemini/gemini-1.5-flash"},
-            {"model": "groq/llama-3.3-70b-versatile"},
-            {"model": "groq/llama3-8b-8192"}
+            {"model": "openrouter/free"}
         ]
         
         full_response = ""
